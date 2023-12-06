@@ -76,6 +76,11 @@ public class kalkulator extends javax.swing.JFrame {
 
         layarHasil.setBackground(new java.awt.Color(255, 255, 255));
         layarHasil.setForeground(new java.awt.Color(51, 51, 51));
+        layarHasil.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                layarHasilActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -524,6 +529,10 @@ public class kalkulator extends javax.swing.JFrame {
             layarHasil.setText(x); 
         }
     }//GEN-LAST:event_btn_bActionPerformed
+
+    private void layarHasilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_layarHasilActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_layarHasilActionPerformed
 
     /**
      * @param args the command line arguments
